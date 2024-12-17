@@ -1,0 +1,588 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+	color:#000;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of reset css */
+
+body{ 
+	background-color:#fff;
+	font-family:Microsoft YaHei, SimSun, SimHei;
+	color:#444;
+	font-size:14px;
+	overflow-x:hidden;
+}
+p{
+	color: #444;
+	font-family: 'Raleway', sans-serif;
+	font-size:17px;
+	letter-spacing:1px;
+	line-height:35px;
+	margin-top:20px;
+}
+h1{
+	color: #444;
+  font-family: 'Raleway', sans-serif;
+	font-size:25px;
+	letter-spacing:1px;	
+	font-weight:800;
+}
+h4 {
+	color: #444;
+    font-family: 'Raleway', sans-serif;
+	font-size:27px;
+	letter-spacing:1px;	
+}
+.line-color {
+    width: 80px;
+    height: 5px;
+    background: #009680;
+    margin-top: 5px;
+}
+
+/*navigation*/
+#main-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+  background:#2a464f;
+}
+.nav-wrapper{
+	padding:0px;
+	margin-top: 25px;
+}
+
+#main-nav li {
+  display: inline;
+}
+#main-nav li a{
+  color:#fff;
+  padding: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-size:17px;
+  letter-spacing:3.5px;
+  
+}
+#main-nav li a:hover{
+	color:#00e0c0;
+	text-decoration:none;
+  
+}
+/*end of navigation*/
+.main-logo p{
+	margin:0px;
+	color:#fff;
+	font-size:28px;
+	letter-spacing:2px;
+}
+.main-logo #logo-bold{
+	font-weight:800;
+	color:#f36f25;
+}
+.main-logo-dark p{
+	margin:0px;
+	color:#444;
+	font-size:28px;
+	letter-spacing:2px;
+}
+.main-logo-dark #logo-bold{
+	font-weight:800;
+	color:#f36f25;
+}
+.top {
+    background-color:transparent;
+    margin-bottom: 0px;
+    top:0px;
+    width: 100%;
+    z-index: 9;
+	padding-top:20px;
+	text-align:center;
+}
+/*scroll nav*/
+.top-scroll #main-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 25px;
+  text-align: center;
+}
+
+.top-scroll #main-nav li {
+  display: block;
+    margin-bottom: 10px;
+}
+.top-scroll #main-nav li a{
+  color:#fff;
+  padding: 22px;
+  font-family: 'Raleway', sans-serif;
+  font-size:17px;
+  letter-spacing:3.5px;
+  
+}
+.top-scroll #main-nav li a:hover{
+	color:#00e0c0;
+  
+}
+.top-scroll .top-section {
+    background: red;
+    width:auto;
+    position: absolute;
+    right: 0;
+	top: 100px;
+}
+.top-scroll{
+	-webkit-box-shadow:0px 6px 33px -8px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow:0px 6px 33px -8px rgba(0, 0, 0, 0.4);
+	box-shadow:0px 6px 33px -8px rgba(0, 0, 0, 0.4);
+    background-color:#fff;
+    margin-bottom: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9;
+	padding: 0;
+	display:none;
+}
+.top-scroll .nav-wrapper {
+    margin-top:0px;
+}
+.banner {
+	width:100%;
+	padding-top: 85px;
+}
+.main-banner img {
+    width: 100%;
+}
+#banner-section {
+    width: 1400px;
+    margin: 0px auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.banner h1 {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing:.5px;
+	color:#29474e;
+    font-size: 55px;
+	margin-top:20px; 
+	font-weight:700;
+	text-transform:uppercase;
+	line-height: 55px;
+}
+#cv-btn:hover{
+	text-decoration:none;
+}
+#cv-btn{
+	background:#058573;
+	padding:10px 20px;
+	color:#fff;
+	text-transform:uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;
+	top:20px;
+	position:relative;
+}
+.logos{
+	width:100%;
+	background-color:#efefef;
+	padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.second-section{
+	background:#f6f6f6;
+}
+.second-section h1{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2.5px;
+    color: #29474e;
+    font-size: 55px;
+    margin-bottom:0px;
+    font-weight: 700;
+	line-height: 55px;
+}
+.second-section-content{
+	width:1400px;
+	margin:0px auto;
+	padding-top:80px;
+	padding-bottom:80px;	
+}
+#second-row p{
+	margin-top:0px;
+	margin-bottom:10px;
+}
+#second-row h3{
+	font-family: 'Raleway', sans-serif;
+    letter-spacing:1px;
+    color: #444;
+    font-size: 18px;
+    font-weight:700;
+	text-transform: uppercase;
+	margin-bottom:10px;
+	margin-top: 11px;
+	text-align:center;
+}
+
+#second-row img {
+    width: 100%;
+}
+#icons img {
+    width: 95px;
+}
+#icons{
+	text-align:center;
+	margin-top:20px;
+}
+.portfolio-section{
+	text-align:center;
+}
+.portfolio-section-content{
+	width:1400px;
+	margin:0px auto;
+	padding-top:150px;
+	padding-bottom:150px;	
+}
+.portfolio-section h1{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2.5px;
+    color: #29474e;
+    font-size: 55px;
+    margin-bottom:25px;
+    font-weight: 700;
+}
+#p-header{
+	margin-bottom:20px;
+	text-transform:uppercase;
+}
+span#template {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+
+}
+span#logo {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+span#dev {
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+}
+span#template:hover {
+	color:#29474e;
+	font-weight:bold;
+}
+span#logo:hover {
+	color:#29474e;
+	font-weight:bold;
+}
+span#dev:hover {
+	color:#29474e;
+	font-weight:bold;
+}
+.logo-section{display:none;}
+.dev-section{display:none;}
+.dev-section p{
+	color:#f16d34;
+	margin-bottom:40px;
+}
+
+/*lightbox*/
+a#lg-download {
+    display: none;
+}
+ul#lightgallery2 li {
+    margin: 20px;
+	width:350px;
+}
+.lg-backdrop {
+    background-color: #000000de;
+}
+.screen {
+  width: 350px;
+  height: 350px; /* half image height*/
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  background: #fff;
+  cursor: pointer;
+}
+.screen img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: transform 1s ease-in-out 0.5s;
+}
+.screen:hover img {
+  transform: translateY(-70%);
+}
+.footer{
+	text-align:center;
+	background-color:#2a464f;
+	padding:10px;
+}
+.footer p{
+	font-size:11px;
+	color:#fff;
+	letter-spacing:2px;
+	margin-top:0px;
+}
+
+/*media query*/
+
+@media screen and (max-width:1280px){
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+		padding: 20px;	
+}
+.portfolio-section-content{
+	width:100%;
+		padding: 20px;	
+}
+.main-banner img {
+    width: 100%;
+}
+}
+@media screen and (max-width:1024px){
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+		padding: 20px;	
+}
+.portfolio-section-content{
+	width:100%;
+		padding: 20px;	
+}
+.main-banner img {
+    width: 100%;
+}
+}
+@media screen and (max-width: 991px) {
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+		padding: 20px;	
+}
+.portfolio-section-content{
+	width:100%;
+		padding: 20px;	
+}
+.main-banner img {
+    width: 100%;
+}
+}
+@media screen and (max-width: 768px) {
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+	padding: 20px;	
+}
+.banner h1 { font-size: 45px;}
+.main-banner img {
+    width: 100%;
+}
+.portfolio-section-content{
+	width:100%;
+}
+.second-section h1 {font-size: 45px;}
+.portfolio-section h1{font-size: 45px;}
+#p-header span {font-size: 18px;}
+}
+
+@media screen and (max-width: 680px) {
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+	padding: 20px;	
+}
+.banner h1 { font-size: 45px;}
+.main-banner img {
+    width: 100%;
+}
+.portfolio-section-content{
+	width:100%;
+}
+.second-section h1 {font-size: 45px;}
+.portfolio-section h1{font-size: 45px;}
+#p-header span {font-size: 18px;}
+}
+
+@media screen and (max-width: 480px) {
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+	padding: 20px;	
+}
+.banner h1 { font-size: 45px;}
+.main-banner img {
+    width: 100%;
+}
+.portfolio-section-content{
+	width:100%;
+}
+.second-section h1 {font-size: 45px;}
+.portfolio-section h1{font-size: 45px;}
+#p-header span {font-size: 18px;}
+}
+
+@media screen and (max-width: 450px) {
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+	padding: 20px;	
+}
+.banner h1 { font-size: 45px;}
+.main-banner img {
+    width: 100%;
+}
+.portfolio-section-content{
+	width:100%;
+}
+.second-section h1 {font-size: 45px;}
+.portfolio-section h1{font-size: 45px;}
+#p-header span {font-size: 18px;}
+}
+@media screen and (max-width: 414px) {
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+	padding: 20px;	
+}
+.banner h1 { font-size: 45px;}
+.main-banner img {
+    width: 100%;
+}
+.portfolio-section-content{
+	width:100%;
+}
+.second-section h1 {font-size: 45px;}
+.portfolio-section h1{font-size: 45px;}
+#p-header span {font-size: 18px;}
+}
+@media screen and (max-width: 375px) {
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+	padding: 20px;	
+}
+.banner h1 { font-size: 45px;}
+.main-banner img {
+    width: 100%;
+}
+.portfolio-section-content{
+	width:100%;
+}
+.second-section h1 {font-size: 45px;}
+.portfolio-section h1{font-size: 45px;}
+#p-header span {font-size: 18px;}
+}
+@media screen and (max-width: 360px) {
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+#banner-section {
+	width:100%;
+	padding: 20px;	
+}
+.banner h1 { font-size: 45px;}
+.main-banner img {
+    width: 100%;
+}
+.portfolio-section-content{
+	width:100%;
+}
+.second-section h1 {font-size: 45px;}
+.portfolio-section h1{font-size: 45px;}
+#p-header span {font-size: 18px;}
+}
+
+@media screen and (max-width: 320px) {
+#banner-section {
+	width:100%;
+	padding: 20px;	
+}
+.banner h1 { font-size: 45px;}
+.main-banner img{width:100%:}
+.second-section-content{
+	width:100%;
+		padding: 20px;	
+}
+.portfolio-section-content{
+	width:100%;
+		padding: 20px;	
+}
+.second-section h1 {font-size: 45px;}
+.portfolio-section h1{font-size: 45px;}
+#p-header span {font-size: 18px;}
+}
