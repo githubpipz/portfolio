@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1"/>
 	<link rel="shortcut icon" href="img/favicon.png">
     <!-- Bootstrap -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"> </script>
 	<!-- jquery library-->
 
 	<script src="js/jquery-3.1.1.min.js"></script>
@@ -20,142 +20,72 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700;800&display=swap" rel="stylesheet">
-<!--scroll-->
-  <script>
- $(document).ready(function($){
-  $(window).scroll(function () {
-    if($(document).scrollTop() > 280){
-      $(".top").css('display','block');
-	  $(".top-scroll").css('display','block');
-    }
-    else{
-      $(".top").css('display','block');
-	  $(".top-scroll").css('display','none');
-    }
-  });
-});
-<!--end of scroll-->
-
-<!--smooth scroll-->
- $(document).ready(function($){
-$('.main-nav-wrapper').on('click', '.nav-text', function(evt) {
-    if(evt.target.hash !== '') {
-        $('html, body').animate({ scrollTop: $( evt.target.hash ).offset().top }, 1000);
-        return false;
-    }
-});
-});
- $(document).ready(function($){
-$('.main-nav-wrapper').on('click', '.nav-text-scroll', function(evt) {
-    if(evt.target.hash !== '') {
-        $('html, body').animate({ scrollTop: $( evt.target.hash ).offset().top }, 1000);
-        return false;
-    }
-});
-});
-<!--end of smoothscroll-->
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
  </script>
 </head>
 
 <body>  
 <div class="wrapper">
-<a href="#" id="scroll" style="display: none;"><span></span></a>
-<div class="top">
-				<div class="row top-section">
-					<div class="col-xs-12 col-sm-12 col-md-12 main-logo">
-					<img src="img/logo.png">
-					</div>
-				</div>
-				<div class="row top-section">
-					<div class="col-xs-12 col-sm-12 col-md-12 nav-wrapper">			
-						<ul id="main-nav" class="main-nav-wrapper">
-						  <li><a href="#banner-section" class="nav-list-first nav-text">ABOUT ME</a></li>
-						  <li><a href="#second-row" class="nav-list-second nav-text">SKILLS</a></li>
-						  <li><a href="#third-row" class="nav-list-third nav-text">PORTFOLIO</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-<div class="top-scroll">
-
-				<div class="row top-section">
-					<div class="col-xs-12 col-sm-12 col-md-12 nav-wrapper">			
-						<ul id="main-nav" class="main-nav-wrapper">
-						<img src="img/logo-icon.png">
-						  <li><a href="#banner-section" class="nav-list-first nav-text">ABOUT ME</a></li>
-						  <li><a href="#second-row" class="nav-list-second nav-text">SKILLS</a></li>
-						  <li><a href="#third-row" class="nav-list-third nav-text">PORTFOLIO</a></li>
-						</ul>
-					</div>
-				</div>
-		</div>
+    <!--header-->
+<div class="header">
+      <div class="main-logo">
+      <img src="img/logo-icon.png">
+      </div>
+</div>
 	<!--banner-->
-		<div class="banner" id="banner-section">
+		<div class="banner">
 			<div class="row banner-section">
 				<div class="col-xs-12 col-sm-6 col-md-6 main-banner">
-					<h4>Hey There!</h4>
-					<h1>I am, Perlindo C. Ganuhay Jr</h1>
-					<div class="line-color"></div>
-					<p>I’m a web developer and web designer , passionate about creating technology-based solutions that make a real difference in people’s daily lives. I specialize in building exceptional websites, and other digital products that are both visually stunning and highly functional. Let’s connect and explore how I can help you achieve your goals!</p>
-					<!--b<a href="" id="cv-btn">View My CV</a>-->
+					
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-6 main-banner">
-					<img src="img/banner-img.jpg">
+					
 				</div>
 			</div>
 		</div>
-
 	<!--content-->
-	
 		<div class="second-section" id="second-row">
-			<div class="row second-section-content">		
-
-				<div class="col-xs-12 col-sm-5 col-md-5">
-					<img src="img/skills.jpg">
-					<div style="text-align:center;margin-top:10px;">
-					</div>				
-				</div>				
-				<div class="col-xs-12 col-sm-7 col-md-7">
-					<h1>SKILLS</h1>	
-					<div class="line-color"></div>
-<p style="margin-top:40px;">I am open to work for part-time and full time job.
-I have a proven track record of building and maintaining websites and web applications, and am comfortable working on both small and large scale projects.</p>
-	<p>In addition to my technical skills, I’m also an experienced CMS user, including platforms like WordPress, Shopify, Wix, Unbounce,Squarespace and have developed many websites for clients’ businesses. Whether working independently or as part of a team, I’m highly skilled in communicating with clients to gather requirements and provide updates on project progress.</p>								
-					<div class="row" id="icons">
-					<div class="col-xs-12 col-sm-3 col-md-3">
-					<img src="img/icon1.png">
-					<h3>Web Developer</h3>
-					</div>
-					
-					<div class="col-xs-12 col-sm-3 col-md-3">
-					<img src="img/icon4.png">
-						<h3>Web Designer</h3>
-					</div>
-					
-					<div class="col-xs-12 col-sm-3 col-md-3">
-					<img src="img/icon2.png">
-					<h3>Basic SEO</h3>
-					</div>
-					
-					<div class="col-xs-12 col-sm-3 col-md-3">
-					<img src="img/icon3.png">
-					<h3>Site Optimize</h3>
-					</div>
-					
-					</div>
-					
-				</div>				
-			
+			<div class="row align-items-center second-section-content">		
+				<div class="col-xs-12 col-sm-12 col-md-7">
+					<h1>About <strong>Me</strong></h1>	
+					<p>I’m a Perlindo C Ganuhay Jr, Web Developer and Web Designer, passionate about creating technology-based solutions that make a real difference in people’s daily lives. I specialize in building exceptional websites, and other digital products that are both visually stunning and highly functional. Let’s connect and explore how I can help you achieve your goals!</p>
+                    <p>I am open to work for part-time and full time job. I have a proven track record of building and maintaining websites and web applications, and am comfortable working on both small and large scale projects.</p>
+                </div>
+				<div class="col-xs-12 col-sm-12 col-md-5">
+					<img src="img/about-me.jpg">			
+				</div>					
 			</div>
 			</div>
+            <div class="skill-section" id="fourth-row">
+                <div class="row skill-section-content">
+                    <h1>My <strong>Skills</strong></h1>	
+                    <p>In addition to my technical skills, I’m also an experienced CMS user, including platforms like WordPress, Shopify, Wix, Unbounce,Squarespace and have developed many websites for clients’ businesses. Whether working independently or as part of a team, I’m highly skilled in communicating with clients to gather requirements and provide updates on project progress.</p>
+                    <div class="col-xs-12 col-sm-12 col-md-3">
+                        <img id="icon" src="img/icon1-white.png">
+                        <h3>Web Developer</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3">
+                        <img id="icon" src="img/icon2-white.png">
+                        <h3>SEO Optimazation</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3">
+                        <img id="icon" src="img/icon3-white.png">
+                        <h3>Site Optimize</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-3">
+                        <img id="icon" src="img/icon4-white.png">
+                        <h3>Web Designer</h3>
+                    </div>
+                </div>
+            </div>
 
 			<div class="portfolio-section" id="third-row">
                 <div class="row portfolio-section-content">
                      <div class="col-xs-12 col-sm-12 col-md-12">
-						<h1>PORTFOLIO</h2>
-						<p id="p-header"><span id="template">Template</span><span id="logo">Logo</span><span id="dev">Development</span></p>
+						<h1>My <strong>WorkS</strong></h1>	
+						<p id="p-header"><span id="template">Template</span><span id="dev">Development</span></p>
 		 <div id="light-box-section" class="template-section">
             <ul id="lightgallery1" class="list-unstyled row">
                 <li class="col-xs-6 col-sm-4 col-md-3 screen" data-responsive="imgs/template/2/1.jpg 800" data-src="imgs/template/2/1.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
@@ -363,81 +293,6 @@ I have a proven track record of building and maintaining websites and web applic
 
                 <li class="col-xs-6 col-sm-4 col-md-3 screen" data-responsive="imgs/template/14.jpg 800" data-src="imgs/template/14.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
                         <img class="img-responsive" src="imgs/template/14.jpg" alt="Thumb-1">
-                    </a>
-                </li>				
-            </ul>
-		
-			</div><!--end of lightbox-->
-
-<div id="light-box-section" class="logo-section">
-            <ul id="lightgallery2" class="list-unstyled row">
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/1.jpg 800" data-src="imgs/logo/1.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/1.jpg" alt="Thumb-1">
-                    </a>
-                </li>
-				
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/template/2.jpg 800" data-src="imgs/logo/2.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/2.jpg" alt="Thumb-1">
-                    </a>
-                </li>
-				
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/3.jpg 800" data-src="imgs/logo/3.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/3.jpg" alt="Thumb-1">
-                    </a>
-                </li>
-				
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/4.jpg 800" data-src="imgs/logo/4.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/4.jpg" alt="Thumb-1">
-                    </a>
-                </li>
-				
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/5.jpg 800" data-src="imgs/logo/5.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/5.jpg" alt="Thumb-1">
-                    </a>
-                </li>
-				
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/6.jpg 800" data-src="imgs/logo/6.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/6.jpg" alt="Thumb-1">
-                    </a>
-                </li>
-				
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/7.jpg 800" data-src="imgs/logo/7.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/7.jpg" alt="Thumb-1">
-                    </a>
-                </li>
-				
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/8.jpg 800" data-src="imgs/logo/8.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/8.jpg" alt="Thumb-1">
-                    </a>
-                </li>
-
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/9.jpg 800" data-src="imgs/logo/9.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/9.jpg" alt="Thumb-1">
-                    </a>
-                </li>
-
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/10.jpg 800" data-src="imgs/logo/10.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/10.jpg" alt="Thumb-1">
-                    </a>
-                </li>	
-
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/11.jpg 800" data-src="imgs/logo/11.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/11.jpg" alt="Thumb-1">
-                    </a>
-                </li>	
-
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/12.jpg 800" data-src="imgs/logo/12.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/12.jpg" alt="Thumb-1">
-                    </a>
-                </li>	
-
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/13.jpg 800" data-src="imgs/logo/13.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/13.jpg" alt="Thumb-1">
-                    </a>
-                </li>	
-
-                <li class="col-xs-6 col-sm-4 col-md-3" data-responsive="imgs/logo/14.jpg 800" data-src="imgs/logo/14.jpg" data-sub-html="<h4>Header</h4><p>content</p>"><a href="">
-                        <img class="img-responsive" src="imgs/logo/14.jpg" alt="Thumb-1">
                     </a>
                 </li>				
             </ul>
